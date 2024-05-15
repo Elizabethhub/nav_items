@@ -6,7 +6,6 @@ const navMenu = document.getElementById("navMenu");
 const toggleButton = document.getElementById("toggleButton");
 const listElement = document.getElementById("list");
 let darkModeEnabled = false;
-let subMenuList = null;
 
 toggleButton.addEventListener("click", function () {
   darkModeEnabled = !darkModeEnabled;
